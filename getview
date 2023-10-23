@@ -1,0 +1,9 @@
+                  <label asp-for="EntryDate">Entry Date</label>
+                        <input type="text" id="EntryDateTime" name="EntryDateTime" value="@ViewBag.EntryDateTime" readonly>
+
+                    
+                        <label asp-for="SavedSystemName">System Name</label>
+                        <input type="text" id="SavedSystemName" name="SavedSystemName" readonly>
+
+                        <label asp-for="IpAddress">Ip Address</label>
+                        <input type="text" id="IpAddress" name="IpAddress" readonly>
